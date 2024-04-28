@@ -1,0 +1,155 @@
+@media screen and (max-width: 1280px) {
+    .homePageTop .topBackgroundWrapper {
+        /* width: 1200px;
+        height: 100%;
+        margin: 0 auto; */
+    }
+
+    .homePageTop .topBackgroundWrapper h1 {
+        height: auto;
+
+    }
+
+    .homePageTop .topBackgroundWrapper h2 {
+        height: auto;
+
+    }
+
+    .middleProduct h2 {
+        margin-bottom: 20px;
+    }
+
+    .middleProduct ul {}
+
+    .middleProduct ul li {
+        margin: 0;
+    }
+
+    .bottomSpirit .bottomSpiritWrapper p {
+        padding: 86px 140px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .middleProduct ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-columns: 1fr 1fr; */
+        grid-gap: 10px;
+
+    }
+
+    .middleProduct ul li {
+        margin: 0 auto;
+        width: 250px;
+    }
+
+    .middleProduct ul p {
+        margin: 12px 12px 12px 12px;
+        font-size: 20px;
+
+
+    }
+
+    .middleProduct ul li {
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middleProduct ul i {
+        float: none;
+        margin: 12px 12px 12px 12px;
+    }
+
+}
+
+@media screen and (max-width: 870px) {
+    .homePageTop .topFeature ul {
+        /* display: block; */
+    }
+
+    .homePageTop .topFeature {}
+
+    .homePageTop .topFeature ul li {
+        height: auto;
+    }
+
+    .homePageTop .topFeature li h3 {
+        margin-top: 0;
+    }
+
+    .homePageTop .topFeature li p {
+        /* height: 100%; */
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    .topBar {
+        padding: 0;
+    }
+
+    .topBar>.fa {
+        padding-right: 10px;
+    }
+
+    .topBar img {
+        width: 180px;
+        padding-left: 10px;
+    }
+
+    .homePageTop {
+        width: 100%;
+    }
+
+    .homePageTop .topBackgroundWrapper {
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .homePageTop .topBackgroundWrapper h1 {
+        display: none;
+    }
+
+
+    .homePageTop .topBackgroundWrapper h2 {
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        line-height: 100px;
+        margin-bottom: auto;
+    }
+
+    .middleProduct ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-columns: 1fr 1fr; */
+        grid-gap: 10px;
+
+    }
+
+    .homePageTop .topFeature li h3 {
+        font-size: 12px;
+        /* margin-bottom: 8px; */
+        padding: 4px;
+
+    }
+
+    .homePageTop .topFeature li p {
+        padding: 4px;
+    }
+
+    .bottomSpirit .bottomSpiritWrapper p {
+        padding: 20px 40px;
+        font-size: 12px;
+    }
+}

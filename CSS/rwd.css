@@ -1,0 +1,68 @@
+/* ------------------------------Header-------------------------------------- */
+@media screen and (max-width: 1280px) {
+    .topBar {
+        height: 60px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #2D68ED;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 20px;
+        z-index: 10;
+    }
+
+    .topBar>img {
+        height: 40px;
+    }
+
+    .topBar .menu {
+        flex-direction: column;
+        position: fixed;
+        background-color: #2D68ED;
+        right: -80vw;
+        top: 60px;
+        width: 50vw;
+        height: calc(50vh - 60px);
+        transition: .5s;
+        /* border: 1px red solid; */
+    }
+
+    .topBar .menu a {
+        color: #F1F2F6;
+    }
+
+    .topBar .social {
+        position: fixed;
+        right: -80vw;
+        top: 300px;
+        flex-direction: column;
+        width: 50vw;
+        border-top: 1px solid #e5e5e5;
+        transition: .5s;
+    }
+
+    .topBar>.fa {
+        display: block;
+    }
+
+    .topBar>.fa:hover~.menu,
+    .topBar>.fa:hover~.social {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 870px) {}
+
+@media screen and (max-width: 557px) {}
+
+/* ------------------------------Footer-------------------------------------- */
+@media screen and (max-width: 1280px) {
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 870px) {}
+
+@media screen and (max-width: 470px) {}
